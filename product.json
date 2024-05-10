@@ -1,0 +1,78 @@
+ {
+
+ "haircare": [
+    {
+      "name": "ORIBE",
+      "price": "$53.00",
+      "description": "A rejuvenating shampoo that gently cleanses and repairs damage while restoring moisture.",
+      "photo": "images/ORIBO1.png"
+    },
+    {
+      "name": "ORIBE",
+      "price": "$70.00",
+      "description": "An ultra-hydrating conditioner that moisturizes, protects, and restores dry, damaged hair.",
+      "photo": "images/ORIBO2.png"
+    },
+    {
+      "name": "KERASTASE Densifique",
+      "price": "$45.00",
+      "description": "Cleanses hair build-up. Increases hair density. Strengthens hair. Creates shiny hair.",
+      "photo": "images/KETA1.png"
+    },
+    {
+        "name": "KERASTASE CONDITIONER",
+        "price": "$70.00",
+        "description": "Improves hair texture. Creates thick hair. Easily detangles hair.",
+        "photo": "images/KETA2.png"
+    },
+    {
+        "name": "SHU UEMURA",
+        "price": "$55.00",
+        "description": "A strengthening shampoo infused with Japanese rice water to gently cleanse, repair hair.",
+        "photo": "images/SHU1.png"
+    },
+    {
+        "name": "SHU UEMURA",
+        "price": "$63.00",
+        "description": " A strengthening conditioner infused with Japanese rice water to nourish, repair, guard against future breakage.",
+        "photo": "images/SHU2.png"
+    },
+    {
+        "name": "GISOU HAIR OIL",
+        "price": "$46.00",
+        "description": "A luxurious hair oil enriched with the moisture binding Gisou Mirsalehi Honey to hydrate, boost shine, and smooth frizz and flyaways.",
+        "photo": "images/GIS1.png"
+      },
+      {
+        "name": "KERASTASE HAIR SERUM",
+        "price": "$58.00",
+        "description": "A blend of four precious oils with a lightweight finish and versatile styling benefits to boost hair’s hydration, and shine.",
+        "photo": "images/KETA3.png"
+      },
+      {
+        "name": "COLOR WOW HAIR SPRAY",
+        "price": "$28.00",
+        "description": "A spray that keeps straight, wavy, or curly frizz-prone hair silky, glassy, and frizz-free for days.",
+        "photo": "images/WOW.png"
+      },
+      {
+          "name": "VIRTUE HAIR MASK",
+          "price": "$70.00",
+          "description": "A visibly thickening, breakage-reducing, volume-boosting mask.",
+          "photo": "images/VIR1.png"
+      },
+      {
+          "name": "DYSON AIRWRAP",
+          "price": "$599.00",
+          "description": "Limited Edition Airwrap Multi Styler in Pink and Rose Gold.",
+          "photo": "images/DYS.png"
+      },
+      {
+          "name": "VIRTUE HAIR BRUSH",
+          "price": "$36.00",
+          "description": "A brush that’s uniquely designed for fragile hair that bends and molds to the shape of your hand and scalp.",
+          "photo": "images/VIR2.png"
+      }
+      
+]
+ }

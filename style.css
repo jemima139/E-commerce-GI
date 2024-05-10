@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FDF0DF;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul a {
+  color: black;
+}
+
+.nav-item {
+  font-size: 20px;
+  margin: 0 20px;
+
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.buttons button {
+  margin: 0 10px;
+  background-color: #494d5f;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.welcome-paragraph {
+  flex: 1; 
+  text-align: center; 
+  font-size: 15px;
+  margin-top: 100px;
+}
+
+.welcome-paragraph h3 {
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+#hero-image {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.hero-content p {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  max-width: 80%;
+}
+
+.btn {
+  position: relative;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left:10%;
+  transform: translate(-50%, -50%);
+  padding: 6px 12px;
+  background-color: #494D5f;
+  color: #efefef;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background-color: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.col-2 {
+  flex-grow: 2;
+}
+
+.footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+
+}
+
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+
+}
+
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+
+}
+
+form button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius:30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer; 
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #494D5f;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #494d5f;
+  text-decoration: none;
+
+}
+.social-icons i {
+  font-size: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    height: 50px;
+  }
+
+  .main-container {
+    margin-top: 20px;
+  }
+
+  .footer {
+    margin-top: 100px;
+  }
+}
+
+/* For screens greater than 800px */
+@media screen and (min-width: 801px) {
+
+  .main-container {
+    margin-top: 60px;
+  }
+
+  .footer {
+    margin-top: 200px;
+  }
+}
+
+

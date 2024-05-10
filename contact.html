@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="logo">
+                <h1><a href="index.html"><img src="cheveux.png" class="Logo" alt="Shampoo bottles stacked"></a></h1>
+            </div>
+            <div class="pages">
+                <ul>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="product.html">Store</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        
+        <div class="buttons">
+            <button class="btn1">Sign Up</button>
+            <button class="btn2">Log In</button>
+        </div>
+    </nav>
+      </header>
+      <main>
+        <section>
+            <div class="container">
+                <h1>Subscribe to Us</h1>
+                <p>Submit your information here for monthly deals and exclusive offers</p>
+                <div class="contact-box">
+                    <div class="contact-left">
+                        <h3>Send Your Feedback</h3>
+                        <form onsubmit="handleSubscribe(event)" id="subscribe">
+    
+    
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label for="name">Name</label>
+                                    <input id="name" type="text" placeholder="Name Here">
+                                    <div class="error-message" id="nameError" style="display: none;"></div>
+                                </div>
+                                <div class="input-group">
+                                    <label>Phone Number</label>
+                                    <input id="phone" maxlength="12" type="text" placeholder="123-456-6754">
+                                    <div class="error-message" id="phoneError"></div>
+                                </div>
+                            </div>
+    
+                            <div class="input-row">
+                                <div class="input-group">
+                                    <label>Email</label>
+                                    <input id="email" type="text" placeholder="johndoe123@gmail.com">
+                                    <div class="error-message" id="emailError"></div>
+                                </div>
+                                <div class="input-group">
+                                    <label>Product type</label>
+                                    <select row="5" id="dropdown">
+                                        <option value="">None</option>
+                                        <option value="shampoo">Shampoo</option>
+                                        <option value="conditioner">Conditioner</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <div class="error-message" id="dropdownError"></div>
+                                </div>
+    
+                            </div>
+                            <label>Comment Section</label>
+                            <textarea rows="3" placeholder="Your Message"></textarea>
+    
+                            <button type="submit" id="subscribeForm">SEND</button>
+    
+                        </form>
+                    </div>
+                    <div class="contact-right">
+                        <h3>Reach Us</h3>
+    
+                        <table>
+                            <tr>
+                                <td>Email:</td>
+                                <td>cheveux@chv.com</td>
+                            </tr>
+                            <tr>
+                                <td>Phone Number:</td>
+                                <td>(888) 234-5646</td>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td>2015 Main Street, New York, 10002</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+<footer class="footer">
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+    </div>
+    <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+            <input type="email" placeholder="Your Email Address" required>
+            <br>
+            <button type="submit">SUBSCRIBE NOW</button>
+        </form>
+    </div>
+    <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>2015 Main Street, New York, NY, 10002</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.twitter.com"><i class="bx bxl-twitter"></i></a>
+            
+        </div>
+    </div>
+
+</footer>
+  
+</html>
