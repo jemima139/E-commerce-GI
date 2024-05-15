@@ -37,31 +37,28 @@
                 <div class="contact-box">
                     <div class="contact-left">
                         <h3>Send Your Feedback</h3>
-                        <form onsubmit="handleSubscribe(event)" id="subscribe">
-    
-    
+                        <form id="subscribeForm">
                             <div class="input-row">
                                 <div class="input-group">
                                     <label for="name">Name</label>
-                                    <input id="name" type="text" placeholder="Name Here">
+                                    <input id="name" type="text" placeholder="Name Here" required>
                                     <div class="error-message" id="nameError" style="display: none;"></div>
                                 </div>
                                 <div class="input-group">
                                     <label>Phone Number</label>
-                                    <input id="phone" maxlength="12" type="text" placeholder="123-456-6754">
+                                    <input id="phone" maxlength="12" type="text" placeholder="123-456-6754" pattern="\d{3}-\d{3}-\d{4}" required>
                                     <div class="error-message" id="phoneError"></div>
                                 </div>
                             </div>
-    
                             <div class="input-row">
                                 <div class="input-group">
                                     <label>Email</label>
-                                    <input id="email" type="text" placeholder="johndoe123@gmail.com">
+                                    <input id="email" type="email" placeholder="johndoe123@gmail.com" required>
                                     <div class="error-message" id="emailError"></div>
                                 </div>
                                 <div class="input-group">
                                     <label>Product type</label>
-                                    <select row="5" id="dropdown">
+                                    <select id="dropdown" required>
                                         <option value="">None</option>
                                         <option value="shampoo">Shampoo</option>
                                         <option value="conditioner">Conditioner</option>
@@ -69,13 +66,10 @@
                                     </select>
                                     <div class="error-message" id="dropdownError"></div>
                                 </div>
-    
                             </div>
                             <label>Comment Section</label>
                             <textarea rows="3" placeholder="Your Message"></textarea>
-    
-                            <button type="submit" id="subscribeForm">SEND</button>
-    
+                            <button type="submit">SEND</button>
                         </form>
                     </div>
                     <div class="contact-right">
@@ -98,6 +92,7 @@
                     </div>
                 </div>
             </div>
+        </section>
         </section>
 <footer class="footer">
     <div class="col-1">

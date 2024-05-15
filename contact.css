@@ -258,32 +258,32 @@ form button {
 
 /* Media queries for responsive design */
 
-/* For screens less than 800px */
-@media screen and (max-width: 800px) {
-    nav {
-        height: 50px;
-    }
+@media screen and (max-width: 600px) {
+  .contact-box {
+      flex-direction: column;
+  }
+  
+  .contact-left,
+  .contact-right {
+      flex-basis: auto;
+  }
+  
+  .input-group,
+  textarea {
+      width: 100%;
+  }
+}
 
-    .container {
-        width: 90%;
-    }
-
-    .footer {
-        margin-top: 100px;
-    }
+/* For screens between 601px and 800px */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .container {
+      width: 90%;
+  }
 }
 
 /* For screens greater than 800px */
 @media screen and (min-width: 801px) {
-    nav {
-        height: 70px;
-    }
-
-    .container {
-        width: 70%;
-    }
-
-    .footer {
-        margin-top: 200px;
-    }
+  .container {
+      width: 70%;
+  }
 }
